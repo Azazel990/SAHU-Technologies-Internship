@@ -1,0 +1,684 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.navbar
+{    
+  background: url('images/banner-pattren-bg.jpg');
+  color: #fff;
+    border: 0;
+    margin-bottom: 0;
+    padding: 15px 0px;
+}
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #111 !important;
+    background-color: #fff !important;
+  }
+  .navbar-brand
+  {
+
+      padding: 5px 0px;
+  }
+  .navbar-brand img
+  {
+    position: relative;
+    height: 100%;
+  }
+ nav ul .cart a{
+    background-color: #ffde03;
+    color: #111 !important;
+    border-radius: 50px;
+
+ }
+ nav ul .cart a i{
+   margin-right: 10px;
+ }
+  section
+  {
+      position: relative;
+      background: #60c5f9; 
+   
+    margin: 0;
+    padding: 150px 80px 100px 80px;
+   background: url('images/banner-pattren-bg.jpg');
+    
+}
+section .box h4{
+  margin: 0;
+  padding: 0;
+  font-family: lato;
+  letter-spacing: 2px;
+}
+section .box{
+  position: relative;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+section .box ul{
+  position: relative;
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 25px 0px;
+  
+  padding: 0;
+}
+section .box ul li{
+ margin: 0px 10px;
+}
+section .box ul li a{
+  text-decoration: none;
+  background-color: #ffde03;
+  border: 2px solid #ffde03;
+  color: #111;
+  font-weight: normal;
+  font-size: 1.2em;
+  padding: 10px 40px;
+  border-radius: 50px;
+  transition: 0.3s;
+}
+section .box ul li a:hover{
+  background: transparent;
+  border-color: #fff;
+  transition: 0.3s;
+  color: #fff;
+}
+section .box ul li a:hover i{
+  visibility: hidden;
+  transition: 0.3s;
+  margin-right: 0;
+}
+section .box ul li i{
+  margin-right: 10px;
+}
+section .box h1{
+  font-family: Lato;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  margin: 15px 0px;
+  font-size: 3.5em;
+}
+section .box p{
+  font-family: lato;
+  font-size: 1.3em;
+  letter-spacing: 2px;
+}
+.carousel-control.right, .carousel-control.left {
+  background-image: none;
+  color: #60c5f9;
+}
+.carousel-indicators li {
+  border-color: #60c5f9;
+}
+.carousel-indicators li.active {
+  background-color: #60c5f9;
+}
+.demos
+{
+  position: relative;
+  width: 100%;
+}
+.demos .container-fluid{
+  position: relative;
+  width: 100%;
+  padding: 40px 60px;
+}
+.demos .container-fluid h2{
+  text-align: center;
+  text-transform: uppercase;
+  font-family: lato;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+.demos .container-fluid .carousel{
+  position: relative;
+  margin-top: -40px;
+  padding: 80px 0px;
+  width: 100%;
+}
+.demos .container-fluid .carousel .carousel-inner .item h4 span{
+  font-weight: bolder;
+}
+.features {
+  position: relative;
+  width: 100%;
+}
+.features .container-fluid {
+  position: relative;
+  width: 100%;
+  padding: 0px 0px;
+  display: flex;
+   justify-content: center;
+  flex-wrap: wrap;
+}
+
+.features .container-fluid  span {
+  position: relative;
+  text-align: center;
+  height: 100px;
+  width: 100px;
+  margin: 50px;
+}
+.features .container-fluid span i{
+  position: relative;
+  background-color: #62c5ff;
+  color: #fff;
+  font-size: 4em;
+  padding: 25px;
+  border-radius: 50%;
+}
+.features .container-fluid span p{
+  position: relative;
+  margin: 20px 0px;
+}
+.features .compatibility {
+  position: relative;
+  width: 100%;
+ 
+  margin: 80px 0px;
+  padding: 0;
+}
+.features .compatibility .container-fluid{
+  position: relative;
+  width: 100%;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+ 
+}
+.features .compatibility .container-fluid .info{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: flex-start;
+  width: 45%;
+  font-family: lato;
+ 
+}
+.features .compatibility .container-fluid .info h2{
+  font-weight: bolder;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 2.5em;
+}
+.features .compatibility .container-fluid .info p{
+  margin: 60px 0px;
+  line-height: 1.8em;
+  font-size: 1.2em;
+}
+.features .compatibility .container-fluid .info span{
+  font-weight: bolder;
+  margin: 0;
+}
+.features .compatibility .container-fluid img{
+  position: relative;
+ 
+}
+.features .compatibility footer{
+  position: relative;
+  width: 100%;
+  background-color: #375168;
+  color: #fff;
+}
+.features .compatibility footer .feedback
+{
+  position: relative;
+  width: 100%;
+  padding: 40px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.features .compatibility footer .feedback .info{
+  position: relative;
+  width: 65%;
+  font-family: lato;
+}
+.features .compatibility footer .feedback .info h2{
+  font-weight: bolder;
+}
+.features .compatibility footer .feedback .info p{
+  margin-top: 15px;
+}
+.features .compatibility footer .feedback  a{
+  font-size: 1.5em;
+  text-decoration: none;
+  background: #13B5EC;
+  padding: 10px 30px;
+  border-radius: 50px;
+}
+.features .theme_features{
+  position: relative;
+  width: 100%;
+}
+.features .theme_features .container-fluid{
+  position: relative;
+  padding: 40px 0px 0px 0px;
+}
+.features .theme_features .container-fluid table{
+  position: relative;
+  width: 50%;
+  
+}
+.features .theme_features .container-fluid table tr td,.features .theme_features .container-fluid table tr th{
+  text-align: center;
+}
+.features .theme_features .container-fluid table tr th{
+  font-size: 1.2em;
+}
+.features .theme_features .container-fluid table .carr{
+  color: rgb(19, 199, 19);
+}
+.features .theme_features .container-fluid table tr td i{
+  position: relative;
+  background-color: rgb(19, 199, 19);
+  color: #fff;
+  padding: 2px;
+  border-radius: 50%;
+}
+.features .theme_features .container-fluid table tr td span{
+  color: red;
+  border: 1px solid red;
+  padding: 1px;
+}
+.features .blog_list{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px 20px;
+}
+.features .blog_list span{
+  margin: 0px 10px;
+  text-align: center;
+}
+.features .blog_list span .box{
+  position: relative;
+  height: 200px;
+  width: 400px;
+  background-color: #619CF8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.features .blog_list span .box h2,.features .blog_list span .box h4{
+  font-size: 2.5em;
+  font-weight: bolder;
+  opacity: 0.5;
+  color: #fff;
+  letter-spacing: 4px;
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+}
+.features .blog_list span .box h4{
+  font-size: 1.2em;
+}
+.features .blog_list span h4{
+  font-family: lato;
+  font-weight: bolder;
+  margin-top: 15px;
+}
+.features .blog_list span p{
+  color: #777;
+}
+.features .msg{
+  position: relative;
+  width: 100%;
+ 
+  display: flex;
+  justify-content: center;
+ 
+}
+.features .msg a{
+  text-align: center;
+  text-decoration: none;
+  color: #111;
+  border: 1px solid #aaa;
+  padding: 5px 25px;
+  margin-top: 25px;
+}
+.support{
+  position: relative;
+  background:  #F9FAFF;
+}
+.support .demos .container-fluid .carousel .carousel-inner .item span{
+  font-weight: normal;
+}
+.support .reviews{
+  position: relative;
+  width: 100%;
+  margin-top: -40px;
+}
+.support .reviews .demos .container-fluid .carousel .carousel-inner .item .cards{
+  position: relative;
+  text-align: start;
+  display: flex;
+  justify-content: center;
+  
+}
+.support .reviews .demos .container-fluid .carousel .carousel-inner .item .cards span{
+  margin: 0px 40px;
+}
+.support .reviews .demos .container-fluid .carousel .carousel-inner .item .cards span img{
+  position: relative;
+  height: 100px;
+  width: 100px;
+}
+.support .reviews .container-fluid span p{
+  margin: 20px 0px;
+  line-height: 1.7em;
+}
+.support .reviews .container-fluid span h4{
+  margin-top: 25px;
+  color: #4cbaf9;
+  font-weight: bolder;
+  margin: 0;
+} 
+.custom_work .demos .container-fluid p{
+  text-align: center;
+  padding: 25px 20px;
+}
+.custom_work .demos .container-fluid .carousel .carousel-inner .item span{
+  font-weight: normal;
+}
+.custom_work .custom_features
+{
+  position: relative;
+  width: 100%;
+}
+.custom_work .custom_features .container-fluid{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.custom_work .custom_features .container-fluid span{
+  position: relative;
+  height: 300px;
+  width: 375px;
+  text-align: center;
+  margin: 10px 20px;
+  font-family: lato;
+}
+.custom_work .custom_features .container-fluid span h4{
+  font-weight: bolder;
+  font-size: 1.5em;
+}
+.custom_work .custom_features .container-fluid span p{
+  line-height: 1.8em;
+}
+footer{
+  position: relative;
+  width: 100%;
+  background: url('images/student-849822_1280.jpg');
+  background-size: cover;
+  padding: 80px 0px 0px 0px;
+  margin-top: 80px;
+}
+footer .layer
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0,0.7);
+  z-index: 0;
+}
+footer .ratings{
+  position: relative;
+  font-family: lato;
+  color: #fff;
+  padding: 0px 15px;
+  font-size: 1.3em;
+  z-index: 1;
+  text-align: center;
+}
+footer .ratings ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+footer .ratings ul li{
+  margin: 0px 5px;
+  font-size: 1.5em;
+}
+footer .ratings ul li i{
+  color: gold;
+}
+footer .container-fluid{
+  position: relative;
+  width: 100%;
+ 
+  padding: 40px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+footer .container-fluid .box{
+  background-color: #0E83AE;
+  color: #fff;
+  text-align: center;
+  padding:65px 30px;
+  margin: 0px 10px;
+  font-family: lato;
+  border-radius: 5px;
+}
+footer .container-fluid .box img{
+  margin: 25px 0px;
+}
+footer .container-fluid .box h2{
+  font-weight: bolder;
+}
+footer .container-fluid .box p{
+  line-height: 2em;
+}
+
+footer .container-fluid .box:nth-child(2){
+  background: #fff;
+  color: #111;
+  padding: 45px 0px 0px 0px;
+}
+footer .container-fluid .box:nth-child(2) ul{
+  list-style: none;
+  padding: 0;
+  margin-top: 25px;
+}
+footer .container-fluid .box:nth-child(2) ul li{
+  padding: 15px 0px;
+}
+footer .container-fluid .box:nth-child(2) ul li:nth-child(odd){
+  background: #DBE3E6;
+}
+footer .container-fluid .box:nth-child(2) h2{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+footer .container-fluid .box:nth-child(3){
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 65px 60px;
+}
+footer .container-fluid .box:nth-child(3) a{
+  background: #E3C20A;
+  color: #111;
+  padding: 10px 50px;
+  border: 4px solid #fff;
+  border-radius: 50px;
+  margin-top: 25px;
+  text-decoration: none;
+}
+footer .container-fluid .box:nth-child(3) h1{
+  font-weight: bolder;
+  font-size: 4em;
+}
+footer .panel-footer{
+  background: #262626;
+ position: relative;
+ border: 0;
+ text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+footer .panel-footer p{
+  color: #fff;
+  padding: 20px 0px; 
+}
+footer .panel-footer p a{
+  text-decoration: underline;
+}
+@media screen and (max-width:800px){
+  .navbar-brand img{
+    width: 150px;
+    margin-left: 15px;
+  }
+    section{
+      width: 100%;
+      padding: 170px 15px 40px 15px;
+      
+    }
+    section .box h4{
+      font-size: 1.2em;
+    }
+    section .box h1{
+      font-size: 2.5em;
+      margin: 25px 0px;
+    }
+    section .box p{
+      font-size: 0.9em;
+    }
+    section .box ul{
+      justify-content: center;
+      align-content: center;
+      margin-top: 35px;
+    
+    }
+    section .box ul li{
+     
+      font-size: 0.8em;
+      margin: 0px;
+      transform: scale(0.8);
+      
+    }
+    section .box ul li a{
+      width: 100%;
+      padding: 10px 10px;
+    }
+    .demos .container-fluid{
+      position: relative;
+      padding: 50px 20px;
+    }
+    .demos .container-fluid h2{
+      font-size: 1.5em;
+    }
+    .demos .container-fluid .carousel .carousel-inner .item h4{
+      font-size: 1em;
+    }
+    .features .container-fluid{
+     width: 100%;
+     padding: 0px;
+    }
+    .features .compatibility .container-fluid{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .features .compatibility .container-fluid .info{
+      width: 100%;
+      justify-content: center;
+    }
+    .features .compatibility .container-fluid .info h2{
+      font-size: 2em;
+    }
+    .features .compatibility .container-fluid .info p{
+      margin: 30px 0px;
+    }
+    .features .compatibility .container-fluid  img{
+      position: relative;
+      height: 100%;
+      width: 100%;
+    }
+    .features .compatibility footer .feedback{
+      flex-direction: column;
+      justify-content: center;
+      padding: 40px 40px;
+    }
+    .features .compatibility footer .feedback .info{
+      width: 100%;
+     
+    }
+    .features .compatibility footer .feedback a{
+      margin-top: 25px;
+    }
+    .features .theme_features .container-fluid{
+      padding: 40px 40px;
+      width: 100%;
+    }
+    .features .theme_features .container-fluid table{
+      width: 100%;
+    }
+    .features .blog_list{
+      padding: 20px 0px;
+      margin: 0;
+    }
+    .custom_work .custom_features .container-fluid span{
+      margin: 10px 10px;
+    }
+    footer .container-fluid{
+      flex-direction: column;
+    }
+}
+@media screen and (max-width:400px) {
+  .features .container-fluid span{
+    margin: 50px 30px;
+  }
+  .features .blog_list span .box{
+    width: 300px;
+  }
+  .features .blog_list{
+    padding: 20px 0px;
+    margin: 0;
+  }
+  .features .blog_list span{
+    margin: 0;
+  }
+  .support .reviews .demos .container-fluid{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+  }
+  .support .reviews .container-fluid span:nth-child(2){
+    margin: 20px 40px;
+  }
+  .custom_work .custom_features .container-fluid span{
+    margin: 30px 20px;
+  }
+  .support .reviews .demos .container-fluid .carousel .carousel-inner .item .cards{
+    flex-direction: column;
+  }
+  footer .container-fluid{
+    padding: 40px 20px;
+  }
+}
